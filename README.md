@@ -54,7 +54,7 @@ $ npm run test:cov
 
 ## Stay in touch
 
-- Author - [Sigit Prayitno](https://kamilmysliwiec.com)
+- Author - [Sigit Prayitno](https://coffeegit.com)
 - Website - [https://coffeegit.com](https://coffeegit.com/)
 
 
