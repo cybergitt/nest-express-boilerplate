@@ -57,9 +57,6 @@ $ npm run test:cov
 - Author - [Sigit Prayitno](https://kamilmysliwiec.com)
 - Website - [https://coffeegit.com](https://coffeegit.com/)
 
-## License
-
-Distributed under the [MIT licensed](LICENSE).
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sigitprayitno/
