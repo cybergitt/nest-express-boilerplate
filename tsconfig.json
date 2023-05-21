@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    /* Modules */
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "rootDir": "." /*meaning wherever is this tsconfig.json file, that is the root directory*/,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "pretty": true,
+    "sourceMap": true,
+    "incremental": true,
+    "importHelpers": true,
+    /* Completeness */
+    "skipLibCheck": true,
+    /* JavaScript Support */
+    "allowJs": true,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Emit */
+    "outDir": "./dist",
+    "removeComments": true,
+    "noEmitOnError": false,
+  },
+  "include": ["src/**/*.ts", "src/**/*.json"],
+  "exclude": ["node_modules", "dist", "coverage", "logs"]
+}
