@@ -6,4 +6,4 @@ async function bootstrap() {
   await app.listen(process.env.APP_PORT ? parseInt(process.env.APP_PORT) : 3000);
   console.log(`App Running on ${process.env.APP_ENV} with Port ${process.env.APP_PORT}`);
 }
-bootstrap();
+bootstrap().catch( e => { console.error(e) });
